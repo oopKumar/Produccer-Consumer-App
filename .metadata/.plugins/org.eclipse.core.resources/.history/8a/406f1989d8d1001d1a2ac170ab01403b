@@ -1,0 +1,3 @@
+server.port=8000
+
+logging.file=d:/Raghu-Sir-Rest/app.log

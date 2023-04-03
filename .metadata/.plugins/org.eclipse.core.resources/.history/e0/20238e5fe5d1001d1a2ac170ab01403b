@@ -1,0 +1,33 @@
+2023-04-03 11:27:49.367  INFO 2640 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-03 11:27:49.511  INFO 2640 --- [RMI TCP Connection(17)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03 11:27:49.512  INFO 2640 --- [RMI TCP Connection(17)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-03 11:28:04.086  INFO 17052 --- [main] com.oop.ProducerAppApplication           : Starting ProducerAppApplication using Java 1.8.0_31 on LAPTOP-VAUJT1OU with PID 17052 (D:\Raghu-Sir-Rest\ProducerApp\target\classes started by HP in D:\Raghu-Sir-Rest\ProducerApp)
+2023-04-03 11:28:04.088  INFO 17052 --- [main] com.oop.ProducerAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-03 11:28:04.635  INFO 17052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2023-04-03 11:28:04.642  INFO 17052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03 11:28:04.642  INFO 17052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-03 11:28:04.715  INFO 17052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03 11:28:04.715  INFO 17052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 592 ms
+2023-04-03 11:28:04.963  INFO 17052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2023-04-03 11:28:04.973  INFO 17052 --- [main] com.oop.ProducerAppApplication           : Started ProducerAppApplication in 1.145 seconds (JVM running for 1.66)
+2023-04-03 11:29:20.694  INFO 17052 --- [http-nio-7000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03 11:29:20.695  INFO 17052 --- [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-03 11:29:20.695  INFO 17052 --- [http-nio-7000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-03 11:31:42.131  WARN 17052 --- [http-nio-7000-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "id"]
+2023-04-03 11:32:20.611  INFO 17052 --- [http-nio-7000-exec-5] com.oop.rest.EmployeeRestController      : From Producer..
+2023-04-03 11:32:35.478  INFO 17052 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-03 11:32:35.626  INFO 17052 --- [RMI TCP Connection(14)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03 11:32:35.628  INFO 17052 --- [RMI TCP Connection(14)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-03 11:32:51.096  INFO 16444 --- [main] com.oop.ProducerAppApplication           : Starting ProducerAppApplication using Java 1.8.0_31 on LAPTOP-VAUJT1OU with PID 16444 (D:\Raghu-Sir-Rest\ProducerApp\target\classes started by HP in D:\Raghu-Sir-Rest\ProducerApp)
+2023-04-03 11:32:51.098  INFO 16444 --- [main] com.oop.ProducerAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-03 11:32:51.644  INFO 16444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2023-04-03 11:32:51.648  INFO 16444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03 11:32:51.649  INFO 16444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-03 11:32:51.731  INFO 16444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03 11:32:51.731  INFO 16444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 600 ms
+2023-04-03 11:32:51.993  INFO 16444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2023-04-03 11:32:52.001  INFO 16444 --- [main] com.oop.ProducerAppApplication           : Started ProducerAppApplication in 1.168 seconds (JVM running for 1.672)
+2023-04-03 11:33:09.118  INFO 16444 --- [http-nio-7000-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03 11:33:09.119  INFO 16444 --- [http-nio-7000-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-03 11:33:09.119  INFO 16444 --- [http-nio-7000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-03 11:33:09.139  INFO 16444 --- [http-nio-7000-exec-3] com.oop.rest.EmployeeRestController      : From Producer..

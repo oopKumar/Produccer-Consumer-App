@@ -1,0 +1,24 @@
+2023-04-03 10:28:44.850  INFO 17048 --- [main] com.oop.ConsumerAppApplication           : Starting ConsumerAppApplication using Java 1.8.0_31 on LAPTOP-VAUJT1OU with PID 17048 (D:\Raghu-Sir-Rest\ConsumerApp\target\classes started by HP in D:\Raghu-Sir-Rest\ConsumerApp)
+2023-04-03 10:28:44.852  INFO 17048 --- [main] com.oop.ConsumerAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-03 10:28:45.521  INFO 17048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-04-03 10:28:45.527  INFO 17048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03 10:28:45.527  INFO 17048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-03 10:28:45.621  INFO 17048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03 10:28:45.621  INFO 17048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 725 ms
+2023-04-03 10:28:45.985  INFO 17048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-04-03 10:28:45.995  INFO 17048 --- [main] com.oop.ConsumerAppApplication           : Started ConsumerAppApplication in 1.47 seconds (JVM running for 2.075)
+2023-04-03 10:28:46.204  INFO 17048 --- [main] o.s.boot.CommandLineRunner               : Status Code is {}201
+2023-04-03 10:28:46.204  INFO 17048 --- [main] o.s.boot.CommandLineRunner               : Status Type {}CREATED
+2023-04-03 10:28:46.204  INFO 17048 --- [main] o.s.boot.CommandLineRunner               : Data isWelcome to App Employee [id=101, name=Om Prakash Kumar, salary=5000.0]
+2023-04-03 11:20:02.178  INFO 19440 --- [main] com.oop.ConsumerAppApplication           : Starting ConsumerAppApplication using Java 1.8.0_31 on LAPTOP-VAUJT1OU with PID 19440 (D:\Raghu-Sir-Rest\ConsumerApp\target\classes started by HP in D:\Raghu-Sir-Rest\ConsumerApp)
+2023-04-03 11:20:02.181  INFO 19440 --- [main] com.oop.ConsumerAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-03 11:20:02.734  INFO 19440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8000 (http)
+2023-04-03 11:20:02.741  INFO 19440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03 11:20:02.741  INFO 19440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-03 11:20:02.824  INFO 19440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03 11:20:02.824  INFO 19440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 605 ms
+2023-04-03 11:20:03.088  INFO 19440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8000 (http) with context path ''
+2023-04-03 11:20:03.095  INFO 19440 --- [main] com.oop.ConsumerAppApplication           : Started ConsumerAppApplication in 1.172 seconds (JVM running for 1.697)
+2023-04-03 11:20:03.328  INFO 19440 --- [main] o.s.boot.CommandLineRunner               : Status Code is {}201
+2023-04-03 11:20:03.328  INFO 19440 --- [main] o.s.boot.CommandLineRunner               : Status Type {}CREATED
+2023-04-03 11:20:03.328  INFO 19440 --- [main] o.s.boot.CommandLineRunner               : Data isWelcome to App Employee [id=101, name=Om Prakash Kumar, salary=5000.0]

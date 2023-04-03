@@ -1,0 +1,61 @@
+package com.oop.consumer;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
+import org.springframework.web.client.RestTemplate;
+
+@Component
+public class TestConsumer  implements CommandLineRunner{
+
+	private static Logger logger = LoggerFactory.getLogger(CommandLineRunner.class);
+	
+	@Autowired
+	RestTemplate restTemplate;
+	
+	public void run(String... args) throws Exception {
+		forGetRequest();
+		forPostRequest();
+		
+	}
+private  void forGetRequest() {
+
+	String url ="http://localhost:7000/employee/data";
+	System.out.println("Consumer Start");
+	ResponseEntity<String> forEntity = restTemplate.getForEntity(url,String.class);
+	
+	System.out.println(forEntity.getStatusCode());
+	System.out.println(forEntity.getStatusCodeValue());
+	System.out.println(forEntity.getStatusCode().name());
+	System.out.println(forEntity);
+	
+	System.out.println("Consumer End");
+}
+
+private  void forPostRequest() {
+	System.out.println("Consumer Start");
+
+	String url ="http://localhost:7000/employee/save";
+	String body ="<Employee><id>101</id>"
+	+ "<name>Om Prakash Kumar</name><salary>5000</salary></Employee>";
+	
+	HttpHeaders httpHeaders = new HttpHeaders();
+	httpHeaders.setContentType(MediaType.APPLICATION_XML);
+	HttpEntity<String>requestEntity= new HttpEntity<String>(body,httpHeaders);
+	ResponseEntity<String> response = restTemplate.exchange(url,HttpMethod.POST,requestEntity,String.class);
+	
+	
+	logger.info("Status Code is {}"+response.getStatusCodeValue());
+	logger.info("Status Type {}"+response.getStatusCode().name());
+	logger.info("Data is"+response.getBody());
+	System.out.println("Consumer End");
+	System.exit(0);
+	}
+}

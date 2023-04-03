@@ -1,0 +1,9 @@
+package com.oop.binding;
+
+public class Employee {
+	private Integer id;
+	private String name;
+	private double salary;
+	
+
+}

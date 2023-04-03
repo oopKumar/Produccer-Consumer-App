@@ -1,0 +1,13 @@
+package com.oop.consumer;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class TestConsumer  implements CommandLineRunner{
+
+		
+	public void run(String... args) throws Exception {
+		
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+2023-04-03 11:34:34.183  INFO 16444 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-03 11:34:34.328  INFO 16444 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03 11:34:34.329  INFO 16444 --- [RMI TCP Connection(11)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-03 14:23:36.197  INFO 15936 --- [main] com.oop.ProducerAppApplication           : Starting ProducerAppApplication using Java 1.8.0_31 on LAPTOP-VAUJT1OU with PID 15936 (D:\Raghu-Sir-Rest\ProducerApp\target\classes started by HP in D:\Raghu-Sir-Rest\ProducerApp)
+2023-04-03 14:23:36.198  INFO 15936 --- [main] com.oop.ProducerAppApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-04-03 14:23:36.750  INFO 15936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7000 (http)
+2023-04-03 14:23:36.755  INFO 15936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-03 14:23:36.755  INFO 15936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-03 14:23:36.833  INFO 15936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-03 14:23:36.833  INFO 15936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 608 ms
+2023-04-03 14:23:37.072  INFO 15936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7000 (http) with context path ''
+2023-04-03 14:23:37.079  INFO 15936 --- [main] com.oop.ProducerAppApplication           : Started ProducerAppApplication in 1.13 seconds (JVM running for 1.67)
+2023-04-03 14:24:13.881  INFO 15936 --- [http-nio-7000-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03 14:24:13.882  INFO 15936 --- [http-nio-7000-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-03 14:24:13.882  INFO 15936 --- [http-nio-7000-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-03 14:24:13.956  INFO 15936 --- [http-nio-7000-exec-5] com.oop.rest.EmployeeRestController      : Put Method Called {}10---Employee [id=101, name=Om Prakash Kumar, salary=20003.4]
+2023-04-03 14:25:04.783  INFO 15936 --- [http-nio-7000-exec-2] com.oop.rest.EmployeeRestController      : Put Method Called {}10---Employee [id=101, name=Om Prakash Kumar, salary=20003.4]
+2023-04-03 14:26:55.108  INFO 15936 --- [http-nio-7000-exec-6] com.oop.rest.EmployeeRestController      : Put Method Called {}10---Employee [id=101, name=Om Prakash Kumar, salary=20003.4]
+2023-04-03 14:27:23.078  INFO 15936 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-03 14:27:23.215  INFO 15936 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-03 14:27:23.217  INFO 15936 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
